@@ -153,18 +153,18 @@ const fncPocoes = new AcoesRPGItens(player1,player1.inventario.todositens);
 player1.equiparArma(espada1);
 fncPocoes.pergOp();
 
-//player1.status();
+player1.status();
 
-//player1.desequiparArma();
-//player1.status();
+player1.desequiparArma();
+player1.status();
 //inicia batalha entre player1 e npc
-//var contBatalha = 0;
-//while (contBatalha == 0){
-//    contBatalha = fncJogo.pergOpAtaques();
-//    if (contBatalha != 0){
-//        fncJogo.verificarVencedor(contBatalha);
-//    }
-//}
+var contBatalha = 0;
+while (contBatalha == 0){
+    contBatalha = fncJogo.pergOpAtaques();
+    if (contBatalha != 0){
+        fncJogo.verificarVencedor(contBatalha);
+    }
+}
 
 //fncJogo.fncES.mensagemCompleta(npc.#tipoEntidade);
 //player1.tipoEntidade = "o teste"
