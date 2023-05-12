@@ -21,7 +21,7 @@ export default class Armas extends Itens{
         if (entidade.nome != undefined){
             this.#atributo_especial(entidade,-1);
             entidade.forca = entidade.forca- this.ataque;
-            entidade.fncES.mensagemCompleta(entidade.nome + " removeu "+this.nome+" e ficou perdeu "+this.ataque+" pontos de ataque!"); 
+            entidade.fncES.mensagemCompleta(entidade.nome + " removeu o "+this.nome+" e ficou perdeu "+this.ataque+" pontos de ataque!"); 
         }
     }  
 
