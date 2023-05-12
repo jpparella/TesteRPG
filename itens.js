@@ -6,7 +6,7 @@ export default class Itens{
 
     usar(entidade){
         if (entidade.nome != undefined){
-            entidade.fncES.mensagemCompleta(entidade.nome + " usou "+this.nome+" e nada aconteceu"); 
+            entidade.fncES.mensagemCompleta(entidade.nome + " usou "+this.nome+" e nada aconteceu!!!!"); 
         }
     }    
 }
