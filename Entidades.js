@@ -41,12 +41,14 @@ export class Entidade{
 
 export class Player extends Entidade{    
     #arma    
-    constructor(nome,velocidade,vida,forca,inteligencia,sorte,capacidadeInvt,tipoEntidade = "o Player"){        
+    constructor(nome,velocidade,vida,forca,inteligencia,sorte,capacidadeInvt,defesa,tipoEntidade = "o Player"){        
         super(nome,velocidade,vida,tipoEntidade)
         this.forca = forca;
         this.inteligencia = inteligencia;
         this.sorte = sorte;
+        this.defesa = defesa;
         this.inventario = new Inventario(capacidadeInvt);
+        
     }
     atacar(){
         return this.fncDado.rolarAtributos(this.sorte,parseInt(this.forca));           

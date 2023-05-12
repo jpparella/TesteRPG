@@ -130,7 +130,7 @@ class AcoesRPGItens{
 const npc = new Entidades.Entidade("roberval",1,100,"o NPC");
 //npc.falar("OLá")
 
-const player1 = new Entidades.Player("Janilson",10,100,10,10,10,10, "o guerreiro");
+const player1 = new Entidades.Player("Janilson",10,100,10,10,10,10,50, "o guerreiro");
 
 const pocao_cura = new Pocoes("Poção de cura Grande",2,"vida",20);
 const pocao_forca = new Pocoes("Poção de força",1,"forca",10);
