@@ -142,10 +142,12 @@ const espada1 = new Armas("Espada lendaria",10,50,"espada","vida",10)
 const lanca = new Armas("Lança lendaria",10,80,"lanca","velocidade",10)
 const arco1 = new Armas("Arco lendario",3,20,"arco","velocidade",10)
 const arco2 = new Armas("Arco Principal",3,15,"arco","velocidade",3)
+const lanca2 = new Armas("Lanca Do arcanjo",3,1500,"lanca","vida",300)
 
 
 const pedra = new Itens("Pedra inutil",1);
 const galho = new Itens("Galho inutil",1);
+const chapeu = new Itens("Chapeu do bobo",1);
 
 
 
