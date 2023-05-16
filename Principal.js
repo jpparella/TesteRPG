@@ -139,7 +139,7 @@ const pocao_cura2 = new Pocoes("Pocao de cura pequena",2,"vida",5);
 const pocao_forca2 = new Pocoes("Pocao de forca grande",1,"forca",50);
 
 const espada1 = new Armas("Espada lendaria",10,50,"espada","vida",10)
-const lanca = new Armas("Lança lendaria",10,100,"lanca","velocidade",10)
+const lanca = new Armas("Lança lendaria",10,80,"lanca","velocidade",10)
 const arco1 = new Armas("Arco lendario",3,20,"arco","velocidade",10)
 const arco2 = new Armas("Arco Principal",3,15,"arco","velocidade",3)
 
