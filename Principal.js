@@ -140,6 +140,7 @@ const pocao_forca2 = new Pocoes("Poção de força grande",1,"forca",50);
 const espada1 = new Armas("Espada lendária",10,50,"espada","vida",10)
 const lanca = new Armas("Lança lendária",10,100,"lanca","velocidade",10)
 const arco1 = new Armas("Arco lendário",3,20,"arco","velocidade",10)
+const arco2 = new Armas("Arco Principal",3,15,"arco","velocidade",3)
 
 const pedra = new Itens("Pedra inutil",1);
 const galho = new Itens("Galho inutil",1);
