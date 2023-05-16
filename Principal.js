@@ -134,16 +134,22 @@ const player1 = new Entidades.Player("Janilson",10,100,10,10,10,10,50, "o guerre
 
 const pocao_cura = new Pocoes("Poção de cura Grande",2,"vida",20);
 const pocao_forca = new Pocoes("Poção de força",1,"forca",10);
+const pocao_cura2 = new Pocoes("Poção de cura pequena",2,"vida",5);
+const pocao_forca2 = new Pocoes("Poção de força grande",1,"forca",50);
 
 const espada1 = new Armas("Espada lendária",10,50,"espada","vida",10)
+const lanca = new Armas("Lança lendária",10,100,"lanca","velocidade",10)
 const arco1 = new Armas("Arco lendário",3,20,"arco","velocidade",10)
 
 const pedra = new Itens("Pedra inutil",1);
 const galho = new Itens("Galho inutil",1);
 
+
+
 player1.inventario.adicionarItens(arco1);
 player1.inventario.adicionarItens(pedra);
 player1.inventario.adicionarItens(pocao_cura);
+
 
 const fncJogo = new acoesRPGEntidadesBatalha(player1,npc);
 const fncPocoes = new AcoesRPGItens(player1,player1.inventario.todositens);
