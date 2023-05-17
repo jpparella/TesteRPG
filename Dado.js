@@ -13,7 +13,7 @@ export default class FuncoesDado{
     rolarAtributos(sorte, atributo){
         var maior = 0;
         for (var i=0; i < sorte; i++){
-            var n1 = this.rolar(1, atributo+1);
+            var n1 = this.rolar(1, atributo+2);
             if(maior < n1){
                 maior = n1;
             }
